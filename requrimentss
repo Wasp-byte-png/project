@@ -1,0 +1,8 @@
+requests
+colorama
+pyinstaller
+discord.py
+pyautogui
+psutil
+pygetwindow
+pyttsx3
